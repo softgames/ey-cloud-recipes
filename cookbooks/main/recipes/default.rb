@@ -60,11 +60,11 @@
 # include_recipe "resque-scheduler"
 
 #uncomment to run the redis recipe
-#include_recipe "redis"
+# include_recipe "redis"
 
 #uncomment to run the api-keys-yml recipe
 # include_recipe "api-keys-yml"
-
+# include_recipe "delayed_job"
 #include_recipe "logrotate"
 #
 #uncomment to use the solr recipe
